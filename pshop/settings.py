@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'django.contrib.sites',
+    'django.contrib.sites',
     'django.contrib.flatpages',
 
     'oscar.config.Shop',
@@ -82,7 +82,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'oscarapi',
 ]
-
+SITE_ID = 2
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
